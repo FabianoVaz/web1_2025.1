@@ -25,7 +25,7 @@ Use `border="1"` no elemento `<table>` para adicionar uma borda simples, ou esti
 
 ## Imagens
 
- - [Leonardo](https://static.wikia.nocookie.net/nickelodeon-allstar-brawl/images/3/36/LeonardoOriginal.png/revision/latest?cb=20230804070135)
- - [Donatello](https://static.wikia.nocookie.net/nickelodeon-allstar-brawl/images/8/8a/DonatelloOriginal.png/revision/latest?cb=20230804070309)
- - [Michelangelo](https://static.wikia.nocookie.net/nickelodeon-allstar-brawl/images/e/e1/MichelangeloOriginal.png/revision/latest?cb=20230804070205)
- - [Raphael](https://static.wikia.nocookie.net/nickelodeon-allstar-brawl/images/8/8b/RaphaelOriginal.png/revision/latest?cb=20230804070236)
+ - [Leonardo](https://static.wikia.nocookie.net/nickelodeon-allstar-brawl/images/3/36/LeonardoOriginal.png)
+ - [Donatello](https://static.wikia.nocookie.net/nickelodeon-allstar-brawl/images/8/8a/DonatelloOriginal.png)
+ - [Michelangelo](https://static.wikia.nocookie.net/nickelodeon-allstar-brawl/images/e/e1/MichelangeloOriginal.png)
+ - [Raphael](https://static.wikia.nocookie.net/nickelodeon-allstar-brawl/images/8/8b/RaphaelOriginal.png)
