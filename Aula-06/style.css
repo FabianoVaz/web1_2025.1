@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+
+header{
+    height: 15vh;
+    background-color: antiquewhite;
+}
+
+main{
+    height: 75vh;
+    background-color: aquamarine;
+}
+
+footer{
+    height: 10vh;
+    background-color: bisque;
+}
