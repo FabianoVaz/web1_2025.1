@@ -1,0 +1,71 @@
+/*
+#C4EBFA - Azul claro
+#119FBF - Azul médio
+#03658C - Azul escuro
+#03BFB1 - Verde claro
+#74D971 - Verde médio
+#34BF57 - Verde escuro
+*/
+:root{
+    --azul1: #C4EBFA;
+    --azul2: #119FBF;
+    --azul3: #03658C;
+    --verde1: #03BFB1;
+    --verde2: #74D971;
+    --verde3: #34BF57;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--azul1);
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 24pt;
+}
+
+header, footer, nav {
+    height: 10vh;
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {background-color: var(--verde1);}
+
+nav{background-color: var(--verde3);}
+
+main{
+    height: 55vh;
+    margin: 3vh;
+    display: flex; /* Container */
+}
+
+aside{
+    background-color: var(--verde2);
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miolo{
+    width: 75%;
+}
+
+section{
+    width: calc(100% - 3vh);
+    height: 47%;
+    margin-left: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1{ background-color: var(--azul2); margin-bottom: 3vh;}
+
+#section2{ background-color: var(--azul3);}

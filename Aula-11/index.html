@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 class="titulo"> Texto1 da página </h1>
+    <h2 id="texto2"> Texto2 da página </h2>
+
+    <script>
+        // ## Variáveis vs Constantes
+        // ### Constante
+        const pi = 3.1456;
+        
+        // ### Variável global
+        var nome;
+        nome = "Fabiano";
+        nome = 10;
+        
+        // ### Variável local
+        let idade = "10 anos";
+        idade = 10;
+
+        // ## Operadores:
+        // Numéricos: resultam em números
+        // + - / * ^ %
+        a = 3 * 2; // 6
+        a = 5 % 2; // 1
+        a = Math.pow(2, 3); // 8 (2³)
+
+        // Comparação: resultam em boolean
+        // > < >= <= == === != !==
+        b = 4 > 2; // True
+        b = 4 > 4; // False
+        b = 4 >= 4; // True
+
+        // Lógico: resultam em boolean
+        //  && || !
+
+        // Operador condicional
+        // <condição> ? <true> : <false>
+
+        // ## Estrutura de Decisão
+        /* if( 4 < 2 )
+            console.log("verdade")
+        else
+            console.log("falso") */
+
+        /* console.log( 4 < 2 ? "verdade" : "falso" ) */
+
+        // ## Estrutura de Repetição
+        // Controlada   -> for( ; ; )
+        /* for(let i = 0; i<10; i++){
+            console.log(i)
+        } */
+
+        // Pré-testada  -> while()
+        /*let i = 0
+        while ( i<10 ) {
+            console.log(i)
+            i++;
+        } */
+
+        // Controlada   -> for( ; ; )
+        // Pré-testada  -> while()
+        // Pós-testada  -> do-while()
+
+        // JSON: JavaScript Object Notation
+        // Object (key, value)
+        pessoa = [
+            {nome: "fabiano", cargo: "professor"},
+            {nome: "manoela", cargo: "aluna"},
+            {nome: "israel", cargo: "aluno"},
+        ]
+
+        // Função Lambda ou anônima (arrow functions)
+        pessoa.forEach(
+            (p) => { console.log(p.nome) }
+        );
+        
+        pessoa.map(
+            (pessoa, index) => { console.log(index, pessoa) }
+        );
+
+        pessoasDB = [];
+        pessoasDB.push( { nome: "israel", cargo: "aluno"})
+        pessoasDB.pop(0);
+        pessoasDB.push( { matricula: "israel", media: "aluno", email: "eamil"})
+        
+        pessoasDB.push( { nome: "manoela", cargo: "aluna"})
+
+        const subtitulo = document.querySelector("#texto2");
+        subtitulo.textContent = pessoasDB[1].nome
+        
+        for(let i=0; i<10; i++){
+            subtitulo.textContent += i
+        }
+        
+    </script>
+</body>
+</html>
